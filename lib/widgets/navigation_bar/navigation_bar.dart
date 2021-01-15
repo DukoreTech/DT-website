@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+
+/*A stream is a reusable piece of code that abstracts
+ the complexity of dealing with data while providing useful operations to perform on data.*/
+
+
 class NavigationBar extends StatelessWidget {
   const NavigationBar({Key key}) : super(key : key);
 

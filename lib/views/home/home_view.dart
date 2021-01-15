@@ -30,7 +30,9 @@ class HomeView extends StatelessWidget {
               child: IntrinsicHeight(
                 child: Column(
                   children: <Widget>[
-                     NavigationBar(), //we add the NavigationBar to the HomeView UI and we'll be able to see our UI that the navigation bar is squashed to the top
+                     NavigationBar(), /*we add the NavigationBar to the HomeView UI and we'll 
+                     be able to see our UI that the navigation bar is squashed to the top*/
+                     
                      
                      Expanded(
                         child: Center(

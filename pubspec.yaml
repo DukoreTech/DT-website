@@ -55,6 +55,7 @@ flutter:
    - lib/assets/sliders/dtSlide3.jpg
    - lib/assets/sliders/dtSlide4.jpg
    - lib/assets/sliders/dtSlide5.jpg
+   - lib/assets/cover.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -74,6 +75,14 @@ flutter:
           weight: 800
         - asset: lib/assets/fonts/OpenSans-Regular.ttf
           weight: 400
+    
+    - family: Montserrat
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Regular.ttf
+
+    - family: Electrolize
+      fonts:
+        - asset: lib/assets/fonts/Electrolize-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
